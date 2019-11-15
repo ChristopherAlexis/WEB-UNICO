@@ -1,0 +1,407 @@
+
+
+
+/* RESPONSIVE  */
+
+
+
+  /* +1800px */
+
+
+
+  /* +1400px */
+
+  @media (max-width: 1400px){ 
+
+    .owl-theme .owl-nav [class*='owl-'] {
+      background: rgba(0,0,0,0.1)!important;
+    }
+  }
+
+
+
+  /* +1200px */
+
+@media (max-width: 1200px){
+    .nav-list .menu, .menu-last{
+        text-align: center;
+        padding: 0px 16px;
+    }
+    .last-spc{
+        padding: 0 10px!important;
+    }
+}
+
+
+  /* +992px */
+
+  @media (max-width: 992px){
+    .nav-list .menu, .menu-last{
+        text-align: center;
+        padding: 10px 10px!important;
+    }
+    .navbar-nav .color-line {
+        display: none;
+    }
+    }
+     
+    
+
+  /* +991.98px */
+
+  @media (max-width: 991.98px) { 
+    .carousel-control-prev, 
+    .carousel-control-next {
+        display: none;
+    }
+
+    .vr-line {
+        display: block!important;
+    }
+
+    .contact-con {
+        text-align: center;
+    }
+    .partner-bg {
+        min-height: 0px!important;
+    }
+    .owl-seci {
+        margin-top: 80px;
+        margin-bottom: 80px;
+     }
+}
+
+
+ /* +988px */
+
+ @media (max-width: 988px){
+   
+   
+   
+    .unico-h2{
+        font-size: 200%;
+        text-align: center
+    }
+
+    .unico-big{
+        font-size: 430%;
+        text-align: center
+    }
+    .taller{
+        width: 50%;
+        
+        text-align: center
+    }
+    .unico-h5{
+        width: 60%;
+    }
+    .form-control{
+        font-size: 100%;
+        width: 80%;
+        margin: 0 1em;
+    }
+}
+
+
+
+
+
+
+/* +768px */
+
+@media (max-width: 768px){
+    .pop-col{
+        margin: 20px 0;
+    
+    }
+    }
+
+   
+
+
+
+/* +600px */
+@media (max-width: 600px){
+
+    .mimo{
+       
+        margin-top: -1em;
+       
+    }
+    .mimo img{
+        width: 100%;
+    }
+    .cert{
+        width:110%;
+        margin: 3.5em 0 0 -1.5em
+    }
+    .unico-h1{
+        font-size: 2em;
+        text-align: center;
+        font-weight: bold;
+
+       
+    }
+    .unico-p{
+        font-size: 1.2em;
+        margin: 0 0 5em 0;
+        text-align: center;
+    }
+
+    .read-more{
+        padding: 10px  25px;
+        margin-bottom: 70px;
+    }
+
+    .taller{
+        width: 80%;
+        margin-left: 2em;
+        text-align: center
+    }
+    .unico-h5{
+        width: 100%;
+        margin: 5em 0 5em 1em;
+    }
+    .unico-back-blue{
+        background-color: #082442;
+    }
+    .form-control{
+        font-size: 100%;
+        width: 90%;
+        margin: 0 1em;
+    }
+        
+ 
+}
+
+
+  /* +576px */
+  @media (max-width: 576px ) {
+    .carousel-inner {
+        max-height: 700px;
+    }
+    .carousel-text {
+        padding-top: 80px!important;
+    }
+    .carousel-text span{
+        font-size: 20px!important;
+
+    }
+    .carousel-text h1 {
+        font-size: 20px!important;
+    }
+
+    .linker-work button {
+        padding: 10px 22px;
+        text-align: left;
+        width: 160px;
+    }
+
+    .seccion2{
+        padding: 0 0 10px 20px !important; 
+    }
+
+    .seccion2 .mimo-imagen{
+        padding:0 20px 10px 20px !important;
+        text-align: center;
+    }
+    .seccion2 img{
+        width: 100%;
+    
+    }
+
+    .seccion2 .parrafo{
+        padding: 4px 4px 10px  20px;
+    }
+
+    .seccion2 .texto-head{
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .seccion2 .texto-footer{
+        text-align: center;
+        font-size: 10px;
+    }
+    .seccion3{
+        padding-top: 10px ;
+        padding-bottom: 20px !important;
+    }
+
+    .seccion3 .imagen{
+        padding-top: 30px !important;
+    }
+
+    .seccion3 .text{
+        
+        font-size: 20px;
+        padding:30px 20px 5px 20px ;
+        text-align: center;
+    }
+
+    .seccion3 .subtext{
+        
+        font-size: 15px;
+        padding:10px 20px 10px 20px ;
+        text-align: center;
+    }
+
+    .seccion4{
+        padding-left: 50px !important;
+    }
+
+    .subsec1 .text-taller{
+  
+     font-size: 15px;
+
+    padding-left: 13px !important;
+    font-weight: bolder;
+            }
+    .subsec1 h1{
+        padding-top: 20px;
+        text-align: right;
+        font-size: 35px;
+        font-weight: bolder;
+    }
+
+    .subsec2 .fecha{
+        font-size: 28px;
+    }
+
+    .subsec2 img{
+        width: 100%;
+    }
+    .subsec2 .texto{
+        font-size: 18px;
+       
+    }
+
+    .subsec2 button{
+      font-size: 14px;
+    }
+
+    .seccion5 .texto-taller{
+        text-align:center ;
+        
+    }
+
+    .seccion5 h1{
+        text-align: center;
+        font-size: 35px;
+    }
+    .seccion5 p{
+        padding: 20px 0 20px 0 ;
+        text-align: center;
+        font-size: 15px;
+    }
+    .seccion5 span{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .seccion6 h2{
+        font-size: 50px;
+        text-align: center;
+  
+    }
+
+    .head-footer .footer-h2{
+        font-size: 45px;
+        text-align: center !important;
+        padding-left: 50px !important;
+    }
+
+    .head-footer .footer-p{
+        font-size: 15px;
+        text-align: center !important;
+        padding-left: 50px !important;
+    }
+
+    .seccion6 .footer-img{
+        width: 100%;
+        padding:0 20px 0 70px;
+        text-align: center;
+    }
+
+    .formulario{
+        padding-left: 20px !important;
+
+    }
+    .header-filosofia{
+        padding-top: 20px;
+        text-align: center;
+     }
+
+    .img-filosofia{
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    .text-filosofia{
+        padding-top: 80px;
+        font-size: 16px;
+    }
+
+    .head-entrenadores{
+        font-size: 20px !important;
+    }
+    .unico-red{
+        font-size: 10px !important;
+    }
+
+    .img-entrenadores{
+
+        width: 50% !important;
+        
+}
+
+    .filosofia{
+        padding-bottom: 0;
+    }
+    .seccion3-img{
+        text-align: center !important;
+        padding-bottom: 40px;
+    }
+    
+    .seccion3-filosofia{
+        padding-top: 0;
+    }
+
+    .unico-parrafo{
+        text-align:  left !important;
+    }
+
+    .text-seccion3{
+        font-size: 10px;
+    }
+    .unico-fil-h2{
+        font-size: 20px !important;
+        text-align: center;
+    }
+
+    .icon-scp .left-side  {
+        display: grid;
+    }
+    .icon-scp .left-side .link-head {
+        margin: 3px 0; 
+    }
+    .icon-scp .left-side  span {
+        display: none;
+     }
+      .col-disp{
+        margin: 5px;
+        display: unset;
+        text-align: center;
+    }
+    .link-head{
+        font-size: 13px;
+       
+    }
+
+        .partner-bg {
+            min-height: 0px;
+        }
+
+
+}
+
