@@ -6,14 +6,16 @@
  /* HEADER */
 
  .nav-bg-color{
-
-    background-color: white;
-    
+    background-color: white; 
     }
+    
     .nav-contain{
     margin-top: 10px;
     margin-bottom: 10px;
     
+    }
+    .navbar{
+        padding: 0;
     }
     .navbar img{
         width: 150px;
@@ -23,7 +25,8 @@
         font-size: 20px;
         line-height: 26px;
         padding: 0 40px;
-        text-decoration: none;        
+        text-decoration: none;   
+        transform: translate(0px,20px);   
     }
     
     .nav-list .menu:hover hr {
@@ -1530,5 +1533,27 @@ padding-top: 60px;
     font-size: 1rem;
     letter-spacing: 1px;
 
+}
+/* codigo alexis  */
+header{
+    z-index: 1000; 
+    border: tomato 0px solid;
+    padding: -100px;
+    margin: -100px;
+    /* box-sizing: border-box; */
+ }
+.sticky{
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  padding: 0%;
+  margin: 0%;
+}
+.space{
+    top: -10px;
+}
+.pt-4{
+    padding-top: 0!important;
+    line-height: 20px;
 }
 
