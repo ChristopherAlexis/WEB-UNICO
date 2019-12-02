@@ -1537,7 +1537,6 @@ padding-top: 60px;
 /* codigo alexis  */
 header{
     z-index: 1000; 
-    border: tomato 0px solid;
     padding: -100px;
     margin: -100px;
     /* box-sizing: border-box; */
@@ -1550,10 +1549,67 @@ header{
   margin: 0%;
 }
 .space{
-    top: -10px;
+    top: 0px;
 }
 .pt-4{
     padding-top: 0!important;
     line-height: 20px;
 }
 
+
+body{
+    font-size: 62.5%!important;
+}
+@media screen and (min-width: 360px) and (max-width:480px){
+    .space{
+        z-index: 1030;
+        top: 0;
+        background: #fff;
+        width: 100%;
+    }
+    .otro,.space {
+        position: fixed;
+        right: 0;
+        left: 0;
+        border-width: 0 0 1px;
+        background: #fff;
+    }
+    .navbar {
+        position: relative;
+        z-index: 1000;
+        min-height: 80px;
+        margin-bottom: -50px;
+        padding-left:30px;
+        padding-right:30px;
+        border-bottom: 1px solid black;
+        background: #fff;
+        width: 100%;
+        
+    }
+    nav {
+        display: block;
+        background: #fff;
+        width: 100%;
+    }
+    .nav-contain{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background: #fff;
+        width: 100%;
+    }
+    .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .col-lg-12{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
